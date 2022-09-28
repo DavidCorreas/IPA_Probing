@@ -1,7 +1,10 @@
+data/**
+!data/read_tfrecord.py
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
 *.json
+!.devcontainer/devcontainer.json
 *.pkl
 *.msgpack
 prefect-result-*

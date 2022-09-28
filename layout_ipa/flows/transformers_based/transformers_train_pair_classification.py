@@ -43,7 +43,7 @@ cache_args = dict(
 args = parser.parse_args()
 
 # Change the instruction type that you require here
-INSTRUCTION_TYPE = [0,1,2,3]
+INSTRUCTION_TYPE = [0]  # [0, 1, 2, 3]
 #  where: 0 and 3 - Extractive
 #             1 - Absolute
 #             2 - Relative
